@@ -19,7 +19,7 @@ class ConsoleResponse extends AbstractResponse
     /**
      * @param string $body Console text
      */
-    public function __construct(string $body)
+    public function __construct(string $body = '')
     {
         $this->body = $body;
     }

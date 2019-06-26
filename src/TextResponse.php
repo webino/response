@@ -19,7 +19,7 @@ class TextResponse extends AbstractResponse
     /**
      * @param string $body Text
      */
-    public function __construct(string $body)
+    public function __construct(string $body = '')
     {
         $this->body = $body;
         $this->setContentType('text/plain');
