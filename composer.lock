@@ -4,194 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5a2ca5dea034259c37909bd7630e174e",
-    "packages": [
-        {
-            "name": "psr/container",
-            "version": "1.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/php-fig/container.git",
-                "reference": "b7ce3b176482dbbc1245ebf52b181af44c2cf55f"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/container/zipball/b7ce3b176482dbbc1245ebf52b181af44c2cf55f",
-                "reference": "b7ce3b176482dbbc1245ebf52b181af44c2cf55f",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Psr\\Container\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "PHP-FIG",
-                    "homepage": "http://www.php-fig.org/"
-                }
-            ],
-            "description": "Common Container Interface (PHP FIG PSR-11)",
-            "homepage": "https://github.com/php-fig/container",
-            "keywords": [
-                "PSR-11",
-                "container",
-                "container-interface",
-                "container-interop",
-                "psr"
-            ],
-            "time": "2017-02-14T16:28:37+00:00"
-        },
-        {
-            "name": "webino/event-emitter",
-            "version": "dev-develop",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/webino/event-emitter.git",
-                "reference": "906a5f703d50ebdf4d46293c96a56f98afea248b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/webino/event-emitter/zipball/906a5f703d50ebdf4d46293c96a56f98afea248b",
-                "reference": "906a5f703d50ebdf4d46293c96a56f98afea248b",
-                "shasum": ""
-            },
-            "require": {
-                "php": "~7.1",
-                "webino/exceptions": "1.*"
-            },
-            "require-dev": {
-                "nette/tester": "1.*",
-                "phpstan/phpstan": "0.*",
-                "squizlabs/php_codesniffer": "3.*",
-                "tracy/tracy": "2.*"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Webino\\": [
-                        "src"
-                    ]
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Peter Bacinsky",
-                    "email": "peter@bacinsky.sk"
-                }
-            ],
-            "description": "Event Emitter implementation.",
-            "time": "2019-06-24T14:05:22+00:00"
-        },
-        {
-            "name": "webino/exceptions",
-            "version": "1.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/webino/exceptions.git",
-                "reference": "567d8d0f3c96c71f088b9e79a1756c9e515b0bb9"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/webino/exceptions/zipball/567d8d0f3c96c71f088b9e79a1756c9e515b0bb9",
-                "reference": "567d8d0f3c96c71f088b9e79a1756c9e515b0bb9",
-                "shasum": ""
-            },
-            "require": {
-                "php": "~7.1"
-            },
-            "require-dev": {
-                "nette/tester": "1.*",
-                "phpstan/phpstan": "0.*",
-                "squizlabs/php_codesniffer": "3.*",
-                "tracy/tracy": "2.*"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Webino\\": [
-                        "src"
-                    ]
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Peter Bacinsky",
-                    "email": "peter@bacinsky.sk"
-                }
-            ],
-            "description": "Slightly better PHP exceptions.",
-            "time": "2019-03-21T16:37:06+00:00"
-        },
-        {
-            "name": "webino/instance-container",
-            "version": "dev-develop",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/webino/instance-container.git",
-                "reference": "e19ff4ef63034812e7156f62618d5aae5cb3e396"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/webino/instance-container/zipball/e19ff4ef63034812e7156f62618d5aae5cb3e396",
-                "reference": "e19ff4ef63034812e7156f62618d5aae5cb3e396",
-                "shasum": ""
-            },
-            "require": {
-                "php": "~7.1",
-                "psr/container": "1.*",
-                "webino/event-emitter": "dev-develop",
-                "webino/exceptions": "1.*"
-            },
-            "require-dev": {
-                "nette/tester": "1.*",
-                "phpstan/phpstan": "0.*",
-                "squizlabs/php_codesniffer": "3.*",
-                "tracy/tracy": "2.*"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Webino\\": [
-                        "src"
-                    ]
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Peter Bacinsky",
-                    "email": "peter@bacinsky.sk"
-                }
-            ],
-            "description": "Class Instance Container implementation.",
-            "time": "2019-06-24T14:07:48+00:00"
-        }
-    ],
+    "content-hash": "166964cbe26732d34e395616e866cf81",
+    "packages": [],
     "packages-dev": [
         {
             "name": "composer/xdebug-handler",
@@ -1034,6 +848,55 @@
             "time": "2019-05-28T19:58:33+00:00"
         },
         {
+            "name": "psr/container",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/container.git",
+                "reference": "b7ce3b176482dbbc1245ebf52b181af44c2cf55f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/container/zipball/b7ce3b176482dbbc1245ebf52b181af44c2cf55f",
+                "reference": "b7ce3b176482dbbc1245ebf52b181af44c2cf55f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Container\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common Container Interface (PHP FIG PSR-11)",
+            "homepage": "https://github.com/php-fig/container",
+            "keywords": [
+                "PSR-11",
+                "container",
+                "container-interface",
+                "container-interop",
+                "psr"
+            ],
+            "time": "2017-02-14T16:28:37+00:00"
+        },
+        {
             "name": "psr/log",
             "version": "1.1.0",
             "source": {
@@ -1133,16 +996,16 @@
         },
         {
             "name": "symfony/console",
-            "version": "v4.3.1",
+            "version": "v4.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "d50bbeeb0e17e6dd4124ea391eff235e932cbf64"
+                "reference": "b592b26a24265a35172d8a2094d8b10f22b7cc39"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/d50bbeeb0e17e6dd4124ea391eff235e932cbf64",
-                "reference": "d50bbeeb0e17e6dd4124ea391eff235e932cbf64",
+                "url": "https://api.github.com/repos/symfony/console/zipball/b592b26a24265a35172d8a2094d8b10f22b7cc39",
+                "reference": "b592b26a24265a35172d8a2094d8b10f22b7cc39",
                 "shasum": ""
             },
             "require": {
@@ -1204,20 +1067,20 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2019-06-05T13:25:51+00:00"
+            "time": "2019-06-13T11:03:18+00:00"
         },
         {
             "name": "symfony/finder",
-            "version": "v4.3.1",
+            "version": "v4.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
-                "reference": "b3d4f4c0e4eadfdd8b296af9ca637cfbf51d8176"
+                "reference": "33c21f7d5d3dc8a140c282854a7e13aeb5d0f91a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/finder/zipball/b3d4f4c0e4eadfdd8b296af9ca637cfbf51d8176",
-                "reference": "b3d4f4c0e4eadfdd8b296af9ca637cfbf51d8176",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/33c21f7d5d3dc8a140c282854a7e13aeb5d0f91a",
+                "reference": "33c21f7d5d3dc8a140c282854a7e13aeb5d0f91a",
                 "shasum": ""
             },
             "require": {
@@ -1253,7 +1116,7 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
-            "time": "2019-05-26T20:47:49+00:00"
+            "time": "2019-06-13T11:03:18+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -1603,10 +1466,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "webino/event-emitter": 20,
-        "webino/instance-container": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
