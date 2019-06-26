@@ -29,6 +29,6 @@ class ConsoleResponse extends AbstractResponse
      */
     protected function sendHeaders(): void
     {
-        header_remove();
+
     }
 }
