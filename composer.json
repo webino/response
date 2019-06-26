@@ -13,6 +13,7 @@
     "php": "~7.1"
   },
   "require-dev": {
+    "ext-xdebug": "*",
     "tracy/tracy": "2.*",
     "phpstan/phpstan": "0.*",
     "webino/testing": "1.*",
