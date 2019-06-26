@@ -10,9 +10,7 @@
     }
   ],
   "require": {
-    "php": "~7.1",
-    "webino/event-emitter": "dev-develop",
-    "webino/instance-container": "dev-develop"
+    "php": "~7.1"
   },
   "require-dev": {
     "tracy/tracy": "2.*",
